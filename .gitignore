@@ -15,5 +15,5 @@ hugo.linux
 # End of https://www.gitignore.io/api/hugo
 
 # Jetbrains
-./idea
+.idea
 
