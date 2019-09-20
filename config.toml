@@ -19,8 +19,8 @@ hasCJKLanguage = true
     avatar = "avatar.jpg"
 #    favicon = "favicon.ico"
     description = """
-        Please write anything here.
-        Profiles, backgrounds, favorite things etc.
+        TLDR: Software Engineer & Tech Addict.
+        A native Mobile Developer both iOS & Android. Part-time Backend Developer. Tweaking Machine Learning & try new things in spare time.
     """
     publicationYear = "2019"
     # listPageDateFormat = "January, 2006" # See https://gohugo.io/functions/format/
