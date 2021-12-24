@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/*@media only screen and (max-width: 500px) {*/
+/*  p.text-clip {*/
+/*    background-size: 80vh;*/
+/*  }*/
+/*}*/
+
+p.text-clip {
+  font-family: 'Poppins', sans-serif;
+  font-size: 8px;
+  line-height: 8px;
+  background: url("../img/playground/bwynp.JPG");
+  -webkit-background-clip: text;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  background-size: 90vmin;
+  background-position: top;
+}
+
+body {
+  background: gray;
+  overflow: hidden;
+}
+
+.textured-picture {
+  position: absolute;
+  height: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* filter: grayscale(50%); */
+}
+
+.textured-texture {
+  mix-blend-mode: multiply;
+  filter: contrast(3);
+}
